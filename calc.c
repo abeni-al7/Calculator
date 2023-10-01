@@ -13,13 +13,13 @@ int main()
 	scanf("%lf", &b);
 
 	if (op == '+')
-		printf("The sum of %lf and %lf is %lf\n", a, b, a + b);
+		printf("The sum of %.1lf and %.1lf is %.1lf\n", a, b, a + b);
 	else if (op == '-')
-		printf("The difference between %lf and %lf is %lf\n", a, b, a - b);
+		printf("The difference between %.1lf and %.1lf is %.1lf\n", a, b, a - b);
 	else if (op == '*' || op == 'x' || op == 'X')
-		printf("The product of %lf and %lf is %lf\n", a, b, a * b);
+		printf("The product of %.1lf and %.1lf is %.1lf\n", a, b, a * b);
 	else if (op == '/')
-		printf("The quotient of %lf and %lf is %lf\n", a, b, a / b);
+		printf("The quotient of %.1lf and %.1lf is %.1lf\n", a, b, a / b);
 	else
 		printf("The operator is invalid\n");
 
